@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding:0px;
+    transition: all .3s ease-in-out;
+    list-style: none;
+    box-sizing: border-box;
+}
+// start style the navbar
+a{text-decoration: none;}
+
+$blue : #0984e3;
+$gray-blue: #0f29c2;
+$black : #333;
+$white : #fff;
+
+.btn{
+    border-radius: 1px;
+    margin: 0px 30px 10px 0px ;
+}
+
+@mixin grid($val){
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax($val , 1fr));
+    gap: 1rem;
+}

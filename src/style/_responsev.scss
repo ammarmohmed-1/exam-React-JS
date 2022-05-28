@@ -1,0 +1,25 @@
+@media screen and (max-width:702px) {
+    .Header{
+        .tittle-article{
+            h1{
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:560px) {
+    .Header{
+        padding:80px  20px;
+        .tittle-article{
+            width: 100%;
+        }
+    }
+    html{
+        font-size: 65%;
+    }
+    img{
+        width: 65%;
+        height: auto;
+    }
+}
